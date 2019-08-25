@@ -48,12 +48,12 @@
         <form action="contact_main.html" id="ContactUsCaptchaWebForm" method="POST" onsubmit="return ValidateForm(this);" target="_top">
           <h4 class="display-3" align="center">Contact-Form</h4>
            <img src="../assets/images/contact_form.jpg" alt="feedback" align="center" border="3" height="300" width="600">
-        <input name="skip_WhereToSend" type="hidden" value="your@email.com"/>
+       <!-- <input name="skip_WhereToSend" type="hidden" value="your@email.com"/>
         <input name="skip_SnapHostID" type="hidden" value="H6E9NH896XXL"/>
         <input name="skip_WhereToReturn" type="hidden" value="http://www.YourWebsiteAddress.com/ThankYouPage.html"/>
         <input name="skip_Subject" type="hidden" value="Contact Us Form"/>
         <input name="skip_ShowUserIp" type="hidden" value="1"/>
-        <input name="skip_SendCopyToUser" type="hidden" value="1"/>
+        <input name="skip_SendCopyToUser" type="hidden" value="1"/>-->
         <script type="text/javascript">
         function ValidateForm(frm)
         {
@@ -88,6 +88,7 @@
                return false; 
            }
            alert("Information submitted successfully");
+           header()
         }
         </script>
         <table class="table table-stripped table responsive">
