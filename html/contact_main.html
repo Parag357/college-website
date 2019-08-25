@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./portfolio_files/filter-domains"></script>
+        <title>
+            Contact Us
+        </title>
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+         crossorigin="anonymous">
+    </head>
+    <body bgcolor="#ecebbd">
+         <!--navbar--->
+         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <a class="navbar-brand" href="#">
+                        <img src="../assets/images/logo.png" width="70" height="70" alt="logo">
+                      </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto" align="right">
+                    <li class="nav-item active">
+                     <a class="nav-link" href="../index.html" ><font color= white>Home </font><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../html/courses_intro.html"><font color= white>Courses </font></a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="../html/notice.html"><font color= white>Notice Board</font></a>
+                          </li>
+                          <li class="nav-item">
+                              </li>
+                  </ul>
+            </div>
+              </nav>
+              <br><br>
+         <div class="container">
+                <div class="row no-gutters">
+                  <div class="col-md-2">
+                  </div>
+                    <div class="col-md-8" >
+                        <div class="container-fluid">
+                        <div class="jumbotron mb-5" >
+                                <div class="row no-gutters" >
+        <form action="contact_main.html" id="ContactUsCaptchaWebForm" method="POST" onsubmit="return ValidateForm(this);" target="_top">
+          <h4 class="display-3" align="center">Contact-Form</h4>
+           <img src="../assets/images/contact_form.jpg" alt="feedback" align="center" border="3" height="300" width="600">
+        <input name="skip_WhereToSend" type="hidden" value="your@email.com"/>
+        <input name="skip_SnapHostID" type="hidden" value="H6E9NH896XXL"/>
+        <input name="skip_WhereToReturn" type="hidden" value="http://www.YourWebsiteAddress.com/ThankYouPage.html"/>
+        <input name="skip_Subject" type="hidden" value="Contact Us Form"/>
+        <input name="skip_ShowUserIp" type="hidden" value="1"/>
+        <input name="skip_SendCopyToUser" type="hidden" value="1"/>
+        <script type="text/javascript">
+        function ValidateForm(frm)
+        {
+           if(frm.Name.value=="")
+           {
+               alert("name is required !");
+               frm.Name.focus();
+               return false;
+           } 
+           if(frm.FromEmailAddress.value=="")
+           {
+            alert("mail id is required !");
+               frm.FromEmailAddress.focus();
+               return false; 
+           }
+           if(frm.FromEmailAddress.value.indexOf("@")<1||frm.FromEmailAddress.value.indexOf(".")<1)
+           {
+            alert("e-mail is invalid !");
+            frm.FromEmailAddress.focus();
+            return false;
+           }
+           if(frm.PhoneNumber.value=="")
+           {
+            alert("Phone Number is required !");
+               frm.PhoneNumber.focus();
+               return false; 
+           }
+           if(frm.Comments.value=="")
+           {
+            alert("Please provide some queries,comments,remarks !");
+               frm.Comments.focus();
+               return false; 
+           }
+           alert("Information submitted successfully");
+        }
+        </script>
+        <table class="table table-stripped table responsive">
+        <tr>
+        <td><h5 class="display-5">Name:</h5></td>
+       <td> <input type="text" name="Name" maxlength="60" style="width: 350px"></td>
+        </tr>
+        <tr>
+        <td><h5 class="display-5">E-mail:</h5></td>
+       <td> <input type="text" name="FromEmailAddress" maxlength="60" style="width: 350px"></td>
+        </tr>
+        <tr>
+          <td><h5 class="display-5">Phone no:</h5></td>
+         <td> <input type="text" name="PhoneNumber" maxlength="10" style="width: 350px"></td>
+          </tr>
+        <tr>
+        <td><h5 class="display-5">Comments/Questions :</h5></td>
+       <td> <textarea name="Comments" rows="7" cols="40" style="width: 350px"></textarea></td>
+        </tr>
+        <tr>
+        <td colspan="2" align="center">
+        <input type="submit" class ="btn btn-dark" name="skip_Submit" value="submit">
+        </td>
+        </tr>
+        </table>
+        <br>
+        </form>
+        </div></div></div></div></div></div>
+    </body>
+</html>
