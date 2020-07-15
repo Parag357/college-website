@@ -7,3 +7,19 @@
 Home page
 
 ![](assets/screenshots/home.png)
+
+Courses Offered
+
+![](assets/screenshots/courses.png)
+
+Home page
+
+![](assets/screenshots/home.png)
+
+Home page
+
+![](assets/screenshots/home.png)
+
+Home page
+
+![](assets/screenshots/home.png)
