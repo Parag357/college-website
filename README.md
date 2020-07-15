@@ -6,4 +6,4 @@
 
 Home page
 
-![](asstes/screenshots/home.png)
+![](assets/screenshots/home.png)
