@@ -20,6 +20,6 @@ Notice Board
 
 ![](assets/screenshots/notice.png)
 
-Home page
+Contact form
 
-![](assets/screenshots/home.png)
+![](assets/screenshots/contact.png)
