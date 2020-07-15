@@ -16,9 +16,9 @@ Departments
 
 ![](assets/screenshots/department.png)
 
-Home page
+Notice Board
 
-![](assets/screenshots/home.png)
+![](assets/screenshots/notice.png)
 
 Home page
 
