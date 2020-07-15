@@ -12,9 +12,9 @@ Courses Offered
 
 ![](assets/screenshots/courses.png)
 
-Home page
+Departments
 
-![](assets/screenshots/home.png)
+![](assets/screenshots/department.png)
 
 Home page
 
