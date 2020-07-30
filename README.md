@@ -1,4 +1,4 @@
-# simple college website showcasing its visionaries, courses offered, various departments and other basic features of a college. 
+# The website is showcasing the visionaries, courses, departments and other basic features of a college. 
 
 [Visit this website](https://iter-college.netlify.app/index.html)
 
