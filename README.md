@@ -10,11 +10,11 @@ Home page
 
 Courses Offered
 
-![](assets/screenshots/courses.png)
+<img src="./assets/screenshots/courses.png" alt="course" width="50%" height="auto"/>
 
 Departments
 
-![](assets/screenshots/department.png)
+<img src="./assets/screenshots/department.png" alt="department" width="50%" height="auto"/>
 
 Notice Board
 
