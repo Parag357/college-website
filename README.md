@@ -18,8 +18,8 @@
 
 <b>Notice Board</b>
 
-![](assets/screenshots/notice.png)
+<img src="./assets/screenshots/notice.png" alt="notice"/>
 
 <b>Contact form</b>
 
-![](assets/screenshots/contact.png)
+<img src="./assets/screenshots/contact.png" alt="contact" width="50%" height="auto"/>
