@@ -4,22 +4,22 @@
 
 # Screenshots
 
-Home page
+<b>Home page</b>
 
 <img src="./assets/screenshots/home.png" alt="home" width="50%" height="auto"/>
 
-Courses Offered
+<b>Courses Offered</b>
 
 <img src="./assets/screenshots/courses.png" alt="course" width="50%" height="auto"/>
 
-Departments
+<b>Departments</b>
 
 <img src="./assets/screenshots/department.png" alt="department" width="50%" height="auto"/>
 
-Notice Board
+<b>Notice Board</b>
 
 ![](assets/screenshots/notice.png)
 
-Contact form
+<b>Contact form</b>
 
 ![](assets/screenshots/contact.png)
