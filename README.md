@@ -6,7 +6,7 @@
 
 Home page
 
-<img src="./assets/images/home.png" alt="home" width="50%" height="auto"/>
+<img src="./assets/screenshots/home.png" alt="home" width="50%" height="auto"/>
 
 Courses Offered
 
